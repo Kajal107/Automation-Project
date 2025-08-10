@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="searchProduct.SearhIProduct">
+      <class name="searchProduct.ContactUs">
         <methods>
-          <include name="setUp"/>
-          <include name="payment"/>
-          <include name="invoice"/>
-          <include name="orderProduct"/>
+          <include name="contact"/>
           <include name="login"/>
-          <include name="kidsProduct"/>
-          <include name="placeOrder"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- searchProduct.SearhIProduct -->
+      </class> <!-- searchProduct.ContactUs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
