@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-10T12:37:22 IST" name="Default suite" finished-at="2025-08-10T12:38:10 IST" duration-ms="47682">
+  <suite started-at="2025-08-10T14:18:21 IST" name="Default suite" finished-at="2025-08-10T14:18:40 IST" duration-ms="18958">
     <groups>
     </groups>
-    <test started-at="2025-08-10T12:37:22 IST" name="Default test" finished-at="2025-08-10T12:38:10 IST" duration-ms="47682">
-      <class name="RegisterUser.NewUser">
-        <test-method signature="setUp()[pri:1, instance:RegisterUser.NewUser@33d512c1]" started-at="2025-08-10T12:37:22 IST" name="setUp" finished-at="2025-08-10T12:37:46 IST" duration-ms="23882" status="PASS">
+    <test started-at="2025-08-10T14:18:21 IST" name="Default test" finished-at="2025-08-10T14:18:40 IST" duration-ms="18958">
+      <class name="RegisterUser.Validation">
+        <test-method signature="setUp()[pri:1, instance:RegisterUser.Validation@33d512c1]" started-at="2025-08-10T14:18:21 IST" name="setUp" finished-at="2025-08-10T14:18:30 IST" duration-ms="8570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registeration()[pri:2, instance:RegisterUser.NewUser@33d512c1]" started-at="2025-08-10T12:37:46 IST" name="registeration" finished-at="2025-08-10T12:37:54 IST" duration-ms="7737" status="PASS">
+        <test-method signature="login()[pri:2, instance:RegisterUser.Validation@33d512c1]" started-at="2025-08-10T14:18:30 IST" name="login" finished-at="2025-08-10T14:18:38 IST" duration-ms="8282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registeration -->
-        <test-method signature="signUp()[pri:3, instance:RegisterUser.NewUser@33d512c1]" started-at="2025-08-10T12:37:54 IST" name="signUp" finished-at="2025-08-10T12:38:09 IST" duration-ms="15574" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="title()[pri:3, instance:RegisterUser.Validation@33d512c1]" started-at="2025-08-10T14:18:38 IST" name="title" finished-at="2025-08-10T14:18:38 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method signature="shuDownt()[pri:4, instance:RegisterUser.NewUser@33d512c1]" started-at="2025-08-10T12:38:09 IST" name="shuDownt" finished-at="2025-08-10T12:38:10 IST" duration-ms="443" status="PASS">
+        </test-method> <!-- title -->
+        <test-method signature="logo()[pri:4, instance:RegisterUser.Validation@33d512c1]" started-at="2025-08-10T14:18:38 IST" name="logo" finished-at="2025-08-10T14:18:40 IST" duration-ms="1651" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shuDownt -->
-      </class> <!-- RegisterUser.NewUser -->
+        </test-method> <!-- logo -->
+        <test-method signature="shutDown()[pri:5, instance:RegisterUser.Validation@33d512c1]" started-at="2025-08-10T14:18:40 IST" name="shutDown" finished-at="2025-08-10T14:18:40 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- RegisterUser.Validation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
